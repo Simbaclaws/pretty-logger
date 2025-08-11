@@ -67,13 +67,17 @@ function buildLogArguments(level, group, message, interpolatedValues) {
   styles.push(messageStyle);
 
   const logArguments = [formatParts.join(''), ...styles];
-  
-  if (interpolatedValues && interpolatedValues.length > 0) {
-    if (interpolatedValues.length === 1 && interpolatedValues[0] instanceof Error) {
-        logArguments.push('\nError Details:', interpolatedValues[0]);
-    } else {
-        logArguments.push('\nInterpolated Values:', interpolatedValues);
-    }
+
+  if (!interpolatedValues || interpolatedValues.length === 0) {
+    return logArguments;
+  }
+
+  if (interpolatedValues.length === 1 && interpolatedValues[0] instanceof Error) {
+    // Handle the special case of a single Error object.
+    logArguments.push('\nError Details:', interpolatedValues[0]);
+  } else {
+    // Handle all other cases where interpolated values exist.
+    logArguments.push('\nInterpolated Values:', interpolatedValues);
   }
 
   return logArguments;
