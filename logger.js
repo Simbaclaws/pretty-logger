@@ -1,3 +1,13 @@
+/**
+ * @file logger.js
+ * @description This library is a pretty console logger for web browsers.
+ *
+ * @version 1.0.0
+ * @license GPLv3
+ * @author Hylke Hellinga
+ */
+
+
 // --- Configuration ---
 
 const STYLES = {
