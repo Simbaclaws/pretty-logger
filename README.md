@@ -1,4 +1,4 @@
-# 🎨 Browser Pretty Logger
+# 🎨 Pretty Logger
 
 A lightweight, zero-dependency, styled console logger for the browser. It uses a modern tagged template literal API to provide rich, colorful logging while preserving the original source code line numbers for easy debugging.
 
