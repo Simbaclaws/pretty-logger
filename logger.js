@@ -13,13 +13,13 @@ const STYLES = {
 };
 
 const STACK_STYLES = {
-  success: "background: #e8f5e9; color: #1e4620; padding: 4px 8px; font-family: monospace; border-radius: 3px; line-height: 1.6;",
-  fatal:   "background: #ffcdd2; color: #611a15; padding: 4px 8px; font-family: monospace; border-radius: 3px; line-height: 1.6;",
-  error:   "background: #ffcdd2; color: #611a15; padding: 4px 8px; font-family: monospace; border-radius: 3px; line-height: 1.6;",
-  warn:    "background: #ffe0b2; color: #663c00; padding: 4px 8px; font-family: monospace; border-radius: 3px; line-height: 1.6;",
-  info:    "background: #bbdefb; color: #0d3c61; padding: 4px 8px; font-family: monospace; border-radius: 3px; line-height: 1.6;",
-  debug:   "background: #e8f5e9; color: #1e4620; padding: 4px 8px; font-family: monospace; border-radius: 3px; line-height: 1.6;",
-  trace:   "background: #d1c4e9; color: #32254a; padding: 4px 8px; font-family: monospace; border-radius: 3px; line-height: 1.6;",
+  success: "background: #e8f5e9; color: #1e4620; padding: 4px 8px; font-family: monospace; border-radius: 3px; line-height: 1.6; margin-right: 6px;",
+  fatal:   "background: #ffcdd2; color: #611a15; padding: 4px 8px; font-family: monospace; border-radius: 3px; line-height: 1.6; margin-right: 6px;",
+  error:   "background: #ffcdd2; color: #611a15; padding: 4px 8px; font-family: monospace; border-radius: 3px; line-height: 1.6; margin-right: 6px;",
+  warn:    "background: #ffe0b2; color: #663c00; padding: 4px 8px; font-family: monospace; border-radius: 3px; line-height: 1.6; margin-right: 6px;",
+  info:    "background: #bbdefb; color: #0d3c61; padding: 4px 8px; font-family: monospace; border-radius: 3px; line-height: 1.6; margin-right: 6px;",
+  debug:   "background: #e8f5e9; color: #1e4620; padding: 4px 8px; font-family: monospace; border-radius: 3px; line-height: 1.6; margin-right: 6px;",
+  trace:   "background: #d1c4e9; color: #32254a; padding: 4px 8px; font-family: monospace; border-radius: 3px; line-height: 1.6; margin-right: 6px;",
 };
 
 const LOG_ICONS = {
