@@ -4,7 +4,7 @@ A lightweight, zero-dependency, styled console logger for the browser. It uses a
 
 
 ---
-## Features
+## ✨ Features
 
 * ✅ **Rich, Customizable Styling:** Create distinct, easy-to-read logs with custom icons, colors, and backgrounds.
 * 🔗 **Perfect Source Links:** Always links to the correct line in your application code, not the logger's internals.
@@ -14,7 +14,7 @@ A lightweight, zero-dependency, styled console logger for the browser. It uses a
 * 🔍 **Interactive Data:** Logs objects and errors in a way that lets you inspect them in the DevTools.
 
 ---
-## Setup
+## 🚀 Setup
 
 This logger is a single, self-contained file.
 
@@ -26,7 +26,7 @@ import { createLogger, baseLogger } from './utils/logger.js';
 ```
 
 ---
-## Usage
+## 👨‍💻 Usage
 
 The logger works by preparing arguments for the native `console` methods. You use the logger method as a **tag** for a template literal, and then spread the result into the console method of your choice.
 
