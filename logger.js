@@ -33,8 +33,13 @@ const STACK_STYLES = {
 };
 
 const LOG_ICONS = {
-  success: "✅", fatal: "🛑", error: "❌",
-  warn: "⚠️", info: "ℹ️", debug: "🐞", trace: "👣",
+  success: "✅",
+  fatal: "💀",
+  error: "🔥",
+  warn: "⚡",
+  info: "💡",
+  debug: "🐞",
+  trace: "👣",
 };
 
 /**
